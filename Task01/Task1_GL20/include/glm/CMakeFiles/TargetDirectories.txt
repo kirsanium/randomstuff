@@ -1,0 +1,3 @@
+/home/kirsanium/Downloads/Task01/Task1_GL20/include/glm/CMakeFiles/edit_cache.dir
+/home/kirsanium/Downloads/Task01/Task1_GL20/include/glm/CMakeFiles/rebuild_cache.dir
+/home/kirsanium/Downloads/Task01/Task1_GL20/include/glm/CMakeFiles/glm_dummy.dir

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run">
+				<Option output="/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/GraphicsApi/DirectX11"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/GraphicsApi/DirectX9"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/GraphicsApi"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/GraphicsApi/OpenGL20"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/Internal"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/Materials"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/Meshes"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/PlatformApi"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/PlatformApi/Windows"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/Tasks"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 run"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run/fast">
+				<Option output="/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/GraphicsApi/DirectX11"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/GraphicsApi/DirectX9"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/GraphicsApi"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/GraphicsApi/OpenGL20"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/Internal"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/Materials"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/Meshes"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/PlatformApi"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/GraphicsEngine/PlatformApi/Windows"/>
+					<Add directory="/home/kirsanium/Downloads/GraphicsEngine/./Sources/Tasks"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 run/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kirsanium/Downloads/GraphicsEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Application.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Application.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Camera.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Camera.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Directory.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Directory.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GUI.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GUI.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11ConstantBuffer.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11ConstantBuffer.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11GUI.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11GUI.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11GraphicsDevice.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11GraphicsDevice.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11GraphicsEngine.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11GraphicsEngine.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11GraphicsEngineFabric.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11GraphicsEngineFabric.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11Material.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11Material.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11Mesh.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11Mesh.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11PixelShader.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11PixelShader.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11RenderTexture.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11RenderTexture.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11Texture2D.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11Texture2D.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11TextureSampler.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11TextureSampler.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11VertexShader.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX11/DX11VertexShader.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9FixedFunctionPipeline.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9FixedFunctionPipeline.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9GUI.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9GUI.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9GraphicsDevice.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9GraphicsDevice.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9GraphicsEngine.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9GraphicsEngine.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9GraphicsEngineFabric.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9GraphicsEngineFabric.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9Material.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9Material.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9Mesh.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9Mesh.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9PixelShader.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9PixelShader.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9RenderTexture.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9RenderTexture.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9Texture2D.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9Texture2D.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9TextureSampler.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9TextureSampler.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9VertexShader.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/DirectX9/DX9VertexShader.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20GUI.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20GUI.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20GraphicsDevice.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20GraphicsDevice.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20GraphicsEngine.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20GraphicsEngine.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20GraphicsEngineFabric.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20GraphicsEngineFabric.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20Input.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20Input.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20Material.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20Material.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20Mesh.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20Mesh.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20RenderTexture.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20RenderTexture.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20Texture2D.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20Texture2D.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20TextureSampler.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/OpenGL20/GL20TextureSampler.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/TextureImpl.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsApi/TextureImpl.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsEngine.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsEngine.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsEngineFabric.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/GraphicsEngineFabric.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Input.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Input.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/GraphicsDevice.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/GraphicsDevice.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/InternalApplication.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/InternalApplication.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/InternalGUI.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/InternalGUI.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/InternalInput.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/InternalInput.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/ObjectStorage.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Internal/ObjectStorage.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/Material.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/Material.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialDiffuse.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialDiffuse.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialSand.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialSand.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialTask01.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialTask01.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialTask02Cube.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialTask02Cube.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialTask02Cylinder.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialTask02Cylinder.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialUnlit.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialUnlit.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialUnlitSimple.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Materials/MaterialUnlitSimple.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/Mesh.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/Mesh.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshCube.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshCube.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshCylinder.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshCylinder.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshObjFile.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshObjFile.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshPlane.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshPlane.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshQuad.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshQuad.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshSphere.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshSphere.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshTriangle.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Meshes/MeshTriangle.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Object.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Object.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/PlatformApi/Windows/WinInput.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/PlatformApi/Windows/WinInput.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/PlatformApi/Windows/WinWindow.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/PlatformApi/Windows/WinWindow.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/RenderTexture.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/RenderTexture.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Scene.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Scene.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Screen.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Screen.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Texture2D.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Texture2D.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Time.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Time.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Transform.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Transform.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Vector3.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/GraphicsEngine/Vector3.h">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/Sources/main.cpp">
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/kirsanium/Downloads/GraphicsEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

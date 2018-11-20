@@ -1,0 +1,435 @@
+GET http://localhost:6789/users/1
+Authorization: Token afc2645a-bca2-42c8-bd8a-d182dc372788
+
+###
+
+GET http://localhost:6789/users/0
+Authorization: Token afc2645a-bca2-42c8-bd8a-d182dc372788
+
+###
+
+GET http://localhost:6789/users
+Authorization: Token afc2645a-bca2-42c8-bd8a-d182dc372788
+
+<> 2018-11-14T115418.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "qq"
+}
+
+<> 2018-11-14T115343.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "kirsan"
+}
+
+<> 2018-11-14T115332.200.json
+
+###
+
+POST http://localhost:6789/logout
+Content-Type: application/json
+
+{
+    "username": "kirsan"
+}
+
+###
+
+POST http://localhost:6789/logout
+Authorization: Token 021ecd54-5c78-4992-a0ea-ca0ef132709f
+
+<> 2018-11-14T115308.200.json
+
+###
+
+GET http://localhost:6789/messages?offset=1&count=1
+Authorization: Token 021ecd54-5c78-4992-a0ea-ca0ef132709f
+
+###
+
+GET http://localhost:6789/messages?count=1
+Authorization: Token 021ecd54-5c78-4992-a0ea-ca0ef132709f
+
+<> 2018-11-14T115223.200.json
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 021ecd54-5c78-4992-a0ea-ca0ef132709f
+Content-Type: application/json
+
+{     "message": "ququq" }
+
+<> 2018-11-14T115111.200.json
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 021ecd54-5c78-4992-a0ea-ca0ef132709f
+Content-Type: application/json
+
+{     "message": "oldi zdes'???" }
+
+<> 2018-11-14T115100.200.json
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 4a1079d7-8f57-434b-a2f7-88e2c1ee68c8
+Content-Type: application/json
+
+{     "message": "oldi zdes'???" }
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "kirsan"
+}
+
+<> 2018-11-14T115024.200.json
+
+###
+
+POST http://localhost:6789/users
+Content-Type: application/json
+
+{
+    "username": "kirsan"
+}
+
+###
+
+POST http://localhost:6789/messages
+Content-Type: application/json
+
+{
+    "username": "kirsan"
+}
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 4a1079d7-8f57-434b-a2f7-88e2c1ee68c8
+Content-Type: application/json
+
+{     "message": "oldi zdes'???" }
+
+<> 2018-11-14T112906.200.json
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token efe4dfb4-da0c-4f70-9ebe-5062c87a647e
+Content-Type: application/json
+
+{     "message": "oldi zdes'???" }
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "kirsan"
+}
+
+<> 2018-11-14T112813.200.json
+
+###
+
+GET http://localhost:6789/users/1
+Authorization: Token 8c4c9a69-572f-4457-b92c-f4b8b7a2b0c7
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 8c4c9a69-572f-4457-b92c-f4b8b7a2b0c7
+Content-Type: application/json
+
+{
+    "message": "oldi zdes'???"
+}
+
+<> 2018-11-14T065349.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T065334.200.json
+
+###
+
+GET http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T065311.200.json
+
+###
+
+GET http://localhost:6789/users/1
+Authorization: Token 828632f8-4f9a-4144-a351-6cc9ce3d0113
+
+###
+
+GET http://localhost:6789/messages?offset=0&count=1
+Authorization: Token 828632f8-4f9a-4144-a351-6cc9ce3d0113
+
+<> 2018-11-14T063545.200.json
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 828632f8-4f9a-4144-a351-6cc9ce3d0113
+Content-Type: application/json
+
+{
+    "message": "oldi zdes'???"
+}
+
+<> 2018-11-14T063540.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T063529.200.json
+
+###
+
+GET http://localhost:6789/messages?offset=0&count=1
+Authorization: Token cb6b1b25-3ac3-43ad-835f-e6ca6bb6c12e
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token cb6b1b25-3ac3-43ad-835f-e6ca6bb6c12e
+Content-Type: application/json
+
+{
+    "message": "oldi zdes'???"
+}
+
+<> 2018-11-14T063331.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T063318.200.json
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 0e27020b-f16d-49e1-a83d-f42562390e78
+Content-Type: application/json
+
+{
+    "message": "oldi zdes'???"
+}
+
+<> 2018-11-14T062925.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T062912.200.json
+
+###
+
+GET http://localhost:6789/messages?offset=0&count=1
+Authorization: Token 5d658974-dd55-4dab-9d7f-0218ba8b6672
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 5d658974-dd55-4dab-9d7f-0218ba8b6672
+Content-Type: application/json
+
+{
+    "message": "oldi zdes'???"
+}
+
+<> 2018-11-14T062241.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T062229.200.json
+
+###
+
+GET http://localhost:6789/messages?offset=0&count=1
+Authorization: Token a7e33af1-df9f-4b3e-9fc1-633eac618c01
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T060833.200.json
+
+###
+
+GET http://localhost:6789/messages?offset=0&count=1
+Authorization: Token ec490e42-8669-4337-b5b8-e8118d426a88
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token ec490e42-8669-4337-b5b8-e8118d426a88
+Content-Type: application/json
+
+{
+    "message": "oldi zdes'???"
+}
+
+<> 2018-11-14T060612.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T060556.200.json
+
+###
+
+GET http://localhost:6789/messages?offset=0&count=1
+Authorization: Token 1df00e9e-a7f2-436a-be62-be80370ac4ab
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token ea8bc3d0-1345-4b97-854a-e7b1eb80c147
+Content-Type: application/json
+
+{
+    "message": "oldi zdes'???"
+}
+
+<> 2018-11-14T060450.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T060437.200.json
+
+###
+
+GET http://localhost:6789/messages?offset=0&count=1
+Authorization: Token 1df00e9e-a7f2-436a-be62-be80370ac4ab
+
+###
+
+GET http://localhost:6789/messages?offset=0
+Authorization: Token 1df00e9e-a7f2-436a-be62-be80370ac4ab
+
+###
+
+POST http://localhost:6789/messages
+Authorization: Token 1df00e9e-a7f2-436a-be62-be80370ac4ab
+Content-Type: application/json
+
+{
+    "message": "oldi zdes'???"
+}
+
+<> 2018-11-14T055539.200.json
+
+###
+
+POST http://localhost:6789/login
+Content-Type: application/json
+
+{
+    "username": "semarita1337"
+}
+
+<> 2018-11-14T055526.200.json
+
+###
+
+GET http://localhost:6789/messages?offset=0
+Authorization: Token efe4dfb4-da0c-4f70-9ebe-5062c87a647e
+
+###
+
+GET http://localhost:6789/messages
+Authorization: Token efe4dfb4-da0c-4f70-9ebe-5062c87a647e
+
+###
+
+GET http://localhost:6789/messages
+Authorization: Token efe4dfb4-da0c-4f70-9ebe-5062c87a647e
+
+###
+
