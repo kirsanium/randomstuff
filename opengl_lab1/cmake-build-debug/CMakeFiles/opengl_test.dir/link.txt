@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/opengl_test.dir/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o CMakeFiles/opengl_test.dir/main.cpp.o  -o opengl_test 

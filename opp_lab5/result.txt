@@ -1,0 +1,2 @@
+[mpiexec@kirsanium-Aspire-E5-532G] Sending Ctrl-C to processes as requested
+[mpiexec@kirsanium-Aspire-E5-532G] Press Ctrl-C again to force abort

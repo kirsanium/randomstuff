@@ -1,0 +1,12 @@
+/home/kirsanium/Downloads/clion-2018.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kirsanium/CLionProjects/opengl_lab1
+CMake Error at CMakeLists.txt:15 (add_executable):
+  add_executable called with incorrect number of arguments
+
+
+CMake Error at CMakeLists.txt:16 (target_include_directories):
+  Cannot specify include directories for target "run" which is not built by
+  this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/kirsanium/CLionProjects/opengl_lab1/cmake-build-debug/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/opengl_lab1.dir/main.cpp.o  -o opengl_lab1 

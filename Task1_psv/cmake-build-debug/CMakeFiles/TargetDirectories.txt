@@ -1,0 +1,4 @@
+/home/kirsanium/CLionProjects/Task1_psv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kirsanium/CLionProjects/Task1_psv/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kirsanium/CLionProjects/Task1_psv/cmake-build-debug/CMakeFiles/Task1_psv.dir
+/home/kirsanium/CLionProjects/Task1_psv/cmake-build-debug/CMakeFiles/glm_dummy.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/opp_lab3.dir/main.c.o  -o opp_lab3 

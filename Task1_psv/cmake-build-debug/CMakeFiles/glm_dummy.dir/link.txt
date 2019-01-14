@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/glm_dummy.dir/main.cpp.o CMakeFiles/glm_dummy.dir/glm/detail/dummy.cpp.o CMakeFiles/glm_dummy.dir/glm/detail/glm.cpp.o  -o glm_dummy 
